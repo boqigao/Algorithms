@@ -1,5 +1,9 @@
 package cn.boqi.datastructures.linkedlist;
 
+/**
+ 使用双向链表
+ @author Gao Boqi
+ */
 public class DoubleLinkedListDemo {
     public static void main(String[] args) {
 

@@ -1,5 +1,9 @@
 package cn.boqi.datastructures.linkedlist;
 
+/**
+ * 使用环形列表解决joseph问题
+ * @author Gao Boqi
+ */
 public class Joseph {
     public static void main(String[] args) {
         CircleSingleLinkedList l = new CircleSingleLinkedList();
