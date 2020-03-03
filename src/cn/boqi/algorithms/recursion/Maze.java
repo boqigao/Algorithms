@@ -1,7 +1,9 @@
 package cn.boqi.algorithms.recursion;
 
-import java.awt.image.ImageProducer;
-
+/**
+ * 使用递归方法在迷宫中找一条路
+ * @author Boqi Gao
+ */
 public class Maze {
     public static void main(String[] args) {
         //先创建一个二维数组，模拟迷宫
