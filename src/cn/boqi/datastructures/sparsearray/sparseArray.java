@@ -1,4 +1,4 @@
-package cn.boqi.datastructures.sparearray;
+package cn.boqi.datastructures.sparsearray;
 
 /**
  * 稀疏数组保存五子棋
