@@ -1,6 +1,8 @@
 package cn.boqi.algorithms.sort;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * BubbleSort:冒泡排序代码实现以及优化
@@ -9,10 +11,21 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {3, 9, -1, 10, 2};
+        int[] arr = new int[80000];
+        for (int i = 0; i < 80000; i++) {
+            arr[i] = (int) (Math.random() * 800000);
+        }
+        System.out.println("排序前时间");
+        Date date1 = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String data1Str = simpleDateFormat.format(date1);
+        System.out.println(data1Str);
         bubbleSort(arr);
-        System.out.println(Arrays.toString(arr));
 
+        System.out.println("排序后时间");
+        Date date2 = new Date();
+        String dataStr2 = simpleDateFormat.format(date2);
+        System.out.println(dataStr2);
     }
 
     public static void bubbleSort(int[] arr) {
