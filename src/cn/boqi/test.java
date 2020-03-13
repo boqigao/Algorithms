@@ -17,6 +17,7 @@ public class test {
 
         for (int i = 0; i < fileNames.size(); i++) {
             File picture = new File(fileNames.get(i));
+
             System.out.println(fileNames.get(i));
             BufferedImage sourceImg = ImageIO.read(new FileInputStream(picture));
             System.out.println(String.format("%.1f", picture.length() / 1024.0));// 源图大小
